@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Sign Talk</string>
+    <string name="background_sign_deaf_pic">BackGround Sign deaf pic</string>
+    <string name="app_logo">App Logo</string>
+    <string name="projecttagline">Bridge The\nGap of Communication</string>
+    <string name="log_in">LOG IN</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="signup">Signup</string>
+    <string name="have_an_account">Have an Account? </string>
+    <string name="login"> Login</string>
+    <string name="back_button">back button</string>
+    <string name="hello_there_nwelcome_to_you">Hello There ! \nWelcome to you</string>
+    <string name="signup1">Signup</string>
+
+    <!-- for Sign In with Facebook -->
+    <string name="facebook_app_id">2099690153529123</string>
+    <string name="fb_login_protocol_scheme">fb2099690153529123</string>
+
+    <!-- navigation drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="text_to_sign_translation">Text To Sign Translation</string>
+    <string name="sign_to_text_translation">Image To Text Translation</string>
+    <string name="word_of_the_day">Word of the Day</string>
+    <string name="communication_mode">Communication Mode</string>
+    <string name="abc_icon_category"><u>ABC</u></string>
+
+</resources>

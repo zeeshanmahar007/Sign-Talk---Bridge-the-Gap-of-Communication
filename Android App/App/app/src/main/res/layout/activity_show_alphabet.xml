@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F0F0"
+    tools:context=".ModeSelectionAndNavDrawer.ShowCategorySignActivity">
+
+    <ImageButton
+        android:id="@+id/btnbackalphabet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:contentDescription="back button"
+        android:drawableTint="@color/black"
+        android:src="@drawable/ic_baseline_category_back_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="@drawable/category_circle_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp">
+
+        <ImageView
+            android:id="@+id/imgcategoryimage"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+        </ImageView>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtcategorytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:textSize="250sp"
+        android:textColor="#0E5E73"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

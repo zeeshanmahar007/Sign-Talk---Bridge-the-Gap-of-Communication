@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/bgimage"
+        android:contentDescription="@string/background_sign_deaf_pic"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffff"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:alpha="0.9">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_below="@id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/projecttagline" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btngetstarted"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/getstartedbtn"
+            android:onClick="signup"
+            android:text="@string/get_started"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnlogin"
+            android:layout_width="135dp"
+            android:layout_height="75dp"
+            android:layout_below="@id/textView2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/loginbtn"
+            android:onClick="login"
+            android:text="@string/log_in"
+            android:textColor="#0E5E73"
+            app:strokeColor="#E0A9E4"
+            app:strokeWidth="3dp" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/user_profile_photo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/logo_border_main"
+        android:contentDescription="@string/todo"
+        android:elevation="4dp"
+        android:src="@drawable/signlogo"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

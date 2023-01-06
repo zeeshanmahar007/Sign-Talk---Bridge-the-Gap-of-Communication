@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#0E66B9"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <ImageView
+        android:id="@+id/headerlogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/signtalk2logo">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Talk"
+        android:textSize="40sp"
+        android:textColor="#86CEB8"
+        android:fontFamily="@font/latomediumitalic"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/headerlogo"
+        >
+
+    </TextView>
+
+<!--
+    <ImageView
+        android:id="@+id/account_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp"
+        android:src="@drawable/ic_round_account1" />
+
+-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/account_icon"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="70dp"
+        android:visibility="invisible"
+        android:src="@drawable/ic_round_account1"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/account_icon"
+        android:layout_marginTop="5dp"
+        android:paddingTop="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginTop="5dp" />
+
+</RelativeLayout>

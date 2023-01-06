@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F1F0F0">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/objectivetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Project Objective"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/objective1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+        android:layout_below="@id/objectivetitle"
+        android:text="Provide easy communication platform for hearing and speech impaired persons.">
+    </TextView>
+
+    <TextView
+        android:id="@+id/objective2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+        android:layout_below="@id/objective1"
+        android:text="Hearing or speech impaired person can communicate with normal person through sign to natural language interpretation">
+    </TextView>
+
+    <TextView
+        android:id="@+id/objective3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+        android:layout_below="@id/objective2"
+        android:text="Normal person can communicate with Hearing or speech impaired person through natural language to sign langauge interpretation">
+    </TextView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

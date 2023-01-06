@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".CommunicationMode.TextToSignMode">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btnbacktexttosign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:background="#00000000"
+                android:contentDescription="back button"
+                android:drawableTint="#FF4081"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+            <TextView
+                android:id="@+id/inputtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnbacktexttosign"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/white"></TextView>
+
+            <VideoView
+                android:id="@+id/texttosignvideoview"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@id/inputtext"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp">
+
+            </VideoView>
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/chat_liner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="5dp">
+
+    <EditText
+        android:id="@+id/input_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textinput"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="Type message here..."
+        android:padding="15dp"
+        android:paddingEnd="40dp"
+        android:layout_toStartOf="@+id/voice_btn">
+
+    </EditText>
+
+        <ImageButton
+            android:id="@+id/voice_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/voiceinput"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/keyboard_voice_icon"
+            app:tint="@color/white" />
+
+        <ImageButton
+            android:id="@+id/btnsend"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@id/voice_btn"
+            android:background="#00000000"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="PlayVideo"
+            android:src="@drawable/send_icon"
+            app:tint="#0E5E73"></ImageButton>
+
+    </RelativeLayout>
+
+</RelativeLayout>

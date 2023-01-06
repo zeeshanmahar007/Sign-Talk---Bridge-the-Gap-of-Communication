@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/activity_alphabet.xml" value="0.11302083333333333" />
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/activity_facebook_auth.xml" value="0.11302083333333333" />
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/activity_number.xml" value="0.11302083333333333" />
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/activity_show_alphabet.xml" value="0.11302083333333333" />
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/activity_sign_to_text_mode.xml" value="0.11302083333333333" />
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/activity_sign_view.xml" value="0.11302083333333333" />
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/activity_signup.xml" value="0.11302083333333333" />
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/activity_splash_main.xml" value="0.11302083333333333" />
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/activity_text_to_sign_mode.xml" value="0.11302083333333333" />
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/categoriescardview.xml" value="0.11302083333333333" />
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/fragment_objective.xml" value="0.11302083333333333" />
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/fragment_try_system.xml" value="0.4" />
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/mode_selection_activity_main.xml" value="0.11302083333333333" />
+        <entry key="..\:/UOG/semester 8th/App/app/src/main/res/layout/nav_header.xml" value="0.11302083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
