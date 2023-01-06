@@ -1,1 +1,1 @@
-# Sign-Talk---Bridge-the-Gap-of-Communication
+# Sign Talk - Bridge the Gap of Communication
